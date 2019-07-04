@@ -1,0 +1,29 @@
+.coupon {
+    content: "";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8rem;
+    height: 30rem;
+    justify-content: center;
+    // justiify content changes the items
+    align-content: center;
+    align-items: center;
+    width: 60%;
+    background-color: #fff;
+    border-radius: 2rem;
+    box-shadow: $box-shadow;
+    transform: translateY(10rem);
+    z-index: 100;
+
+
+
+    &__heading {
+        margin-bottom: 3rem;
+        font-family: sans-serif;
+    }
+
+    &__btn {
+        width: 30%;
+    }
+}

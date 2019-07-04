@@ -1,0 +1,120 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+    &__part--1 {
+        background-color: $color-white;
+        display: flex;
+        justify-content: space-between;
+        box-shadow: .9rem .9rem .9rem .9rem rgba(#000, .1);
+        padding: 7rem;
+        width: 75%;
+        margin: 9rem;
+        justify-items: center;
+        margin-bottom: 1.5rem;
+
+
+        &__paragraph {
+            margin: 6rem;
+
+            &__heading {
+                width: 50%;
+                font-size: 2.5rem;
+                margin-bottom: 2rem;
+            }
+
+            &__paragraph {
+                font-family: sans-serif;
+                color: $color-grey-light-2;
+                width: 60%;
+                font-weight: 500;
+                font-size: 1rem;
+
+            }
+        }
+
+        &__img {
+            width: 40%;
+
+        }
+    }
+
+    &__part--2 {
+        background-color: $color-white;
+        display: flex;
+        justify-content: space-between;
+        box-shadow: .9rem .9rem .9rem .9rem rgba(#000, .1);
+        padding: 7rem;
+        width: 75%;
+        margin: 9rem;
+        justify-items: center;
+        margin-bottom: 1.5rem;
+
+
+        &__paragraph {
+            margin: 6rem;
+            margin-left: 18rem;
+
+            &__heading {
+                width: 80%;
+                font-size: 2.5rem;
+                margin-bottom: 2rem;
+            }
+
+            &__paragraph {
+                font-family: sans-serif;
+                color: $color-grey-light-2;
+                width: 100%;
+                font-weight: 500;
+                font-size: 1rem;
+
+            }
+        }
+
+        &__img {
+            width: 40%;
+
+        }
+    }
+
+    &__part--3 {
+        background-color: $color-white;
+        display: flex;
+        justify-content: space-between;
+        box-shadow: .9rem .9rem .9rem .9rem rgba(#000, .1);
+        padding: 7rem;
+        width: 75%;
+        margin: 9rem;
+        justify-items: center;
+        margin-bottom: 1.5rem;
+
+
+        &__paragraph {
+            margin: 6rem;
+
+            &__heading {
+                width: 50%;
+                font-size: 2.5rem;
+                margin-bottom: 2rem;
+            }
+
+            &__paragraph {
+                font-family: sans-serif;
+                color: $color-grey-light-2;
+                width: 80%;
+                font-weight: 500;
+                font-size: 1rem;
+
+            }
+        }
+
+        &__img {
+            width: 40%;
+
+        }
+    }
+
+
+
+}

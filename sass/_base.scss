@@ -1,0 +1,44 @@
+$color-primary:#87ceeb;
+$color-primary-1:#6db5d1;
+
+
+$color-grey-light-1:#f1eeee;
+$color-grey-light-2:#979494;
+
+
+$color-pink: #e9366c;
+$color-pink-1: #e91152;
+
+$color-white:#fff;
+
+
+$box-shadow: .9rem .9rem .9rem .9rem rgba(#000, .1);
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-weight: 400;
+    line-height: 1.6;
+    // background-image: linear-gradient(to right bottom, $color-grey-light-1, $color-grey-light-2);
+    // background-size: cover;
+
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

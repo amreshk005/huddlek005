@@ -1,0 +1,71 @@
+.header {
+    height: 68.5rem;
+    background-image: linear-gradient(to right bottom, rgba($color-primary, .15), rgba($color-primary-1, .25)), url(../images/bg-hero-desktop.svg);
+    background-size: cover;
+    padding: 2rem;
+    margin: 0;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+
+
+    align-items: center;
+
+    &__logo {
+        margin: 1.5rem 1.8rem;
+        margin-left: 5rem;
+        width: 20rem;
+    }
+
+    &__btn {
+        background-color: #fff;
+        width: 20%;
+        height: 6rem;
+        border-radius: 6rem;
+        font-weight: 500;
+        font-size: 2.5rem;
+        align-items: center;
+        box-shadow: .9rem .9rem .9rem .3rem rgba(#000, 0.2);
+        margin-right: 6rem;
+        cursor: pointer;
+        // transition: all .2s;
+
+        &:focus {
+            outline: none;
+            // animation: pulsate 1s infinite;
+        }
+    }
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+
+    &__text {
+        width: 40%;
+        margin: 14rem 5rem;
+
+        &--1 {
+            font-size: 3rem;
+            margin-bottom: 3rem;
+        }
+
+        &--2 {
+            font-size: 1.5rem;
+            margin-bottom: 4rem;
+
+        }
+
+        &--btn {}
+
+    }
+
+    &__img {
+        height: 50rem;
+        margin-top: 4rem;
+    }
+}
