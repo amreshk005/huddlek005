@@ -1,5 +1,5 @@
 
-<a href="#"><h1>Take a demo</h1></a>
+<a href="https://amreshk005.github.io/huddlek005/"><h1>Take a demo</h1></a>
 # Frontend Mentor - Huddle landing page with alternating feature blocks
 
 ![Design preview for the Huddle landing page with alternating feature blocks coding challenge](./design/desktop-preview.jpg)
