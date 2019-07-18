@@ -10,6 +10,12 @@
     cursor: pointer;
     transition: all .2s;
 
+    @media only screen and (max-width: $db-smallest) {
+        height: 4rem;
+        font-size: .5rem;
+
+    }
+
 
     &:focus {
         outline: none;

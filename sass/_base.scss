@@ -15,6 +15,9 @@ $color-white:#fff;
 $box-shadow: .9rem .9rem .9rem .9rem rgba(#000, .1);
 
 
+$db-smallest: 23.43em; ///375px/16=23.43em
+
+
 
 
 * {
@@ -24,7 +27,11 @@ $box-shadow: .9rem .9rem .9rem .9rem rgba(#000, .1);
 
 html {
     box-sizing: border-box;
-    font-size: 62.5%;
+    font-size: 62.5%; //1rem = 10px 10px/16=62.5%;
+
+    @media only screen and (max-width:$db-smallest) {
+        font-size: 50%;
+    }
 }
 
 body {
