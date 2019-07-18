@@ -1,43 +1,37 @@
 .coupon {
-    content: "";
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 8rem;
-    height: 30rem;
-    justify-content: center;
-    // justiify content changes the items
-    align-content: center;
-    align-items: center;
-    width: 60%;
-    background-color: #fff;
-    border-radius: 2rem;
-    box-shadow: $box-shadow;
-    transform: translateY(10rem);
-    z-index: 100;
+  content: "";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 8rem;
+  height: 30rem;
+  justify-content: center;
+  // justiify content changes the items
+  align-content: center;
+  align-items: center;
+  width: 60%;
+  background-color: #fff;
+  border-radius: 2rem;
+  box-shadow: $box-shadow;
+  transform: translateY(10rem);
 
+  z-index: 100;
 
+  @media only screen and (max-width: $db-smallest) {
+    width: 90%;
+    height: 25rem;
+  }
 
+  &__heading {
+    margin-bottom: 3rem;
+    font-family: sans-serif;
+  }
+
+  &__btn {
+    width: 30%;
 
     @media only screen and (max-width: $db-smallest) {
-        width: 90%;
-        height: 25rem;
-
+      width: 20rem;
     }
-
-    &__heading {
-        margin-bottom: 3rem;
-        font-family: sans-serif;
-
-    }
-
-    &__btn {
-        width: 30%;
-
-
-        @media only screen and (max-width: $db-smallest) {
-            width: 20rem;
-
-        }
-    }
+  }
 }
